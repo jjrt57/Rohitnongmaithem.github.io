@@ -149,10 +149,8 @@
             </div>
             <div class="entry-subtitle">Department of Chemistry, Manipur University | Supervisor: Dr. Francis A. S. Chipem</div>
             <ul>
-                <li>Investigated resonance energy transfer between lanthanide-doped nanoparticles and bichromophoric proton transfer organic dyes under government-funded (DST-ANRF) research grant</li>
-                <li>Performed photoluminescence (PL) measurements, UV-Vis spectrophotometry, and quantitative data analysis - correlating experimental spectra with theoretical FRET predictions</li>
-                <li>Identified and documented discrepancies between calculated and observed energy transfer efficiencies, strengthening ability to flag inconsistent or erroneous experimental outputs</li>
-                <li>Maintained detailed lab notebooks and compiled structured experimental reports for project supervisor</li>
+                <li>Investigated FRET between lanthanide-doped nanoparticles (NaYF₄:Eu) and bichromophoric ESIPT dyes under DST-ANRF funded grant; identified systematic discrepancy between calculated and observed energy transfer efficiencies, prompting re-examination of donor–acceptor distance assumptions in the theoretical model</li>
+                <li>Acquired and processed PL emission and UV-Vis absorption spectra across a concentration series; extracted overlap integrals and compared against Förster-calculated transfer efficiencies, flagging measurement artefacts that had been attributed to genuine energy transfer</li>
             </ul>
         </div>
     </section>
@@ -167,8 +165,8 @@
             </div>
             <div class="entry-subtitle">Personal research project | <a href="https://github.com/jjrt57" target="_blank">github.com/jjrt57</a></div>
             <ul>
-                <li>Ran self-consistent field (SCF) and geometry optimisation calculations for magnetic lanthanide systems on Linux HPC clusters using Quantum ESPRESSO</li>
-                <li>Diagnosed and resolved undocumented hardware/OS-level failures (e.g. OOM memory kills, distributed-data corruption across node migrations, IEEE_INVALID_FLAG exit codes) - demonstrating deep understanding of the intersection between computational physics and system environments</li>
+                <li>Performed SCF convergence and geometry optimisation calculations for magnetic lanthanide systems (f-block) on Linux HPC clusters using Quantum ESPRESSO; tuned Hubbard U parameters and k-point sampling to achieve stable convergence for systems with partially filled f-shells</li>
+                <li>Diagnosed and resolved undocumented HPC failures — including OOM kills from underestimated memory allocation, cross-node filesystem corruption during job migration, and IEEE_INVALID_FLAG exits from numerical instability in pseudopotential routines — reducing job failure rate and enabling completion of previously stalled calculations</li>
                 <li>Authored The Quantum ESPRESSO Necronomicon a multi-part technical debugging series (Part 1 published on Medium, 2026), explaining root causes of cryptic HPC errors for a technical audience</li>
             </ul>
         </div>
@@ -180,7 +178,7 @@
             </div>
             <div class="entry-subtitle"><a href="https://github.com/jjrt57/QE_2_CIF" target="_blank">github.com/jjrt57/QE_2_CIF</a></div>
             <ul>
-                <li>Designed and published a Python script that parses final relaxed atomic coordinates from raw Quantum ESPRESSO output logs and converts them to standard .cif format</li>
+                <li>Designed, documented, and open-sourced a Python tool (pymatgen-based) that parses DFT-relaxed structures from Quantum ESPRESSO output and exports standard .cif files; removes a manual copy-paste step that introduced coordinate errors in post-processing workflows</li>
                 <li>Tool enables direct import of DFT-relaxed structures into crystallographic visualisation software (VESTA, Mercury), removing a common manual post-processing bottleneck</li>
             </ul>
         </div>
@@ -191,7 +189,7 @@
         
         <div class="skills-grid">
             <div class="skill-category">Comp. Software</div>
-            <div>Quantum ESPRESSO, VESTA, BURAI, pymatgen, GaussView, ChemDraw, Mercury, GROMACS, PySCF, RDKit</div>
+            <div>Quantum ESPRESSO, VESTA, BURAI, pymatgen, GaussView, ChemDraw, Mercury</div>
         </div>
         <div class="skills-grid">
             <div class="skill-category">Techniques</div>
@@ -216,7 +214,7 @@
         
         <div class="entry">
             <div class="entry-header">
-                <div class="entry-title">The Quantum ESPRESSO Necronomicon (Part 1 of series)</div>
+                <div class="entry-title">Ongoing technical debugging series; Part 1 published June 2026, covering OOM kill tracing, node migration data corruption, and SCF convergence failures for magnetic f-block systems. Part 2 in preparation.</div>
                 <div class="entry-date">2026</div>
             </div>
             <div class="entry-subtitle">Published on Medium | <a href="https://medium.com/@rohitnongmaithem" target="_blank">medium.com/@rohitnongmaithem</a></div>
